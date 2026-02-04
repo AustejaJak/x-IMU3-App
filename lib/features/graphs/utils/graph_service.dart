@@ -65,8 +65,8 @@ class GraphDataService {
           }
         case XIMU3_EulerAnglesMessage:
           values = [
-            datum.pitch ?? 0,
             datum.roll ?? 0,
+            datum.pitch ?? 0,
             datum.yaw ?? 0,
           ];
           break;
